@@ -36,9 +36,3 @@ Testing is an important part of this project. The test suite in `test_hello.py` 
 - Mean, median, and standard deviation calculations are correct for numerical columns.
 - Non-numeric columns are handled appropriately with informative messages.
 - Histograms are generated without errors.
-
-The test cases can be run using the following command:
-
-```bash
-make test
-
