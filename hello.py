@@ -2,9 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-df = pd.read_csv("student_performance.csv")
-
-
 def calc_mean(df, colname):
     if colname not in df.columns:
         return "Column Does Not Exist"
