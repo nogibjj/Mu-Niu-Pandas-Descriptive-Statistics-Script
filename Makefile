@@ -11,4 +11,5 @@ lint:
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 
-all: install link test
+
+all: install lint test

@@ -3,3 +3,6 @@ pytest
 click
 black
 pytest-cov
+pandas
+numpy
+matplotlib
