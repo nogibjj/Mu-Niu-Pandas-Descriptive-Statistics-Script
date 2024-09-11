@@ -29,6 +29,11 @@ The primary functionality of the project is to compute descriptive statistics fo
 3. **`calc_sd(df, colname)`**: Computes the standard deviation for the given column.
 4. **`draw(df, colname)`**: Generates a histogram for the specified column using `matplotlib`.
 
+Here is an example of the draw() function plotting the histogram for the Attendance Rate column:
+
+![Attendance Rate Histogram](AttendanceRate.png)
+
+
 ### Testing
 
 Testing is an important part of this project. The test suite in `test_hello.py` ensures that:
