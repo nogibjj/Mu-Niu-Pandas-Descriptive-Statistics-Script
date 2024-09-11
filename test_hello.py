@@ -1,4 +1,3 @@
-import pytest
 import pandas as pd
 from hello import calc_mean, calc_median, calc_sd, draw
 
